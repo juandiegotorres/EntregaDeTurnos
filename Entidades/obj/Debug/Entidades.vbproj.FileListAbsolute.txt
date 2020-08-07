@@ -1,0 +1,108 @@
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\obj\Debug\Entidades.xml
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\bin\Debug\Entidades.dll
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\bin\Debug\Entidades.xml
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\obj\Debug\Entidades.dll
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\bin\Debug\CapaDeDatos.dll
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\bin\Debug\MySql.Data.dll
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\bin\Debug\CapaDeDatos.pdb
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\bin\Debug\CapaDeDatos.xml
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\WindowsApplication1\Entidades\bin\Debug\MySql.Data.xml
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.dll
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.xml
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.dll
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.dll
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.pdb
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.xml
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.xml
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.dll
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.xml
+C:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.pdb
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.dll
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.pdb
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.xml
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.dll
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.dll
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.pdb
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.xml
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.xml
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbprojAssemblyReference.cache
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.Resources.resources
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CopyComplete
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.dll
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.xml
+D:\Users\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.pdb
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.dll
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.pdb
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.xml
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.dll
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.dll
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.pdb
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.xml
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.xml
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbprojAssemblyReference.cache
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.Resources.resources
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CopyComplete
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.dll
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.xml
+D:\-Usuarios\jdtor\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.pdb
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.dll
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.pdb
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.xml
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.dll
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.dll
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.pdb
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.xml
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.xml
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbprojAssemblyReference.cache
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.Resources.resources
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CopyComplete
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.dll
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.xml
+E:\Juandi\Documents\Visual Studio 2015\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\bin\Debug\Entidades.dll
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\bin\Debug\Entidades.xml
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.dll
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.dll
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.pdb
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.xml
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.xml
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbprojAssemblyReference.cache
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CopyComplete
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\obj\Debug\Entidades.dll
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\obj\Debug\Entidades.xml
+C:\Users\Juandi\Desktop\Entrega de Turnos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.dll
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\bin\Debug\Entidades.xml
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.dll
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.dll
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.pdb
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\bin\Debug\CapaDeDatos.xml
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\bin\Debug\MySql.Data.xml
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbprojAssemblyReference.cache
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.vbproj.CopyComplete
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.dll
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.xml
+C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.pdb
