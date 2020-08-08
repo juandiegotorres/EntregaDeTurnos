@@ -22,11 +22,10 @@ Partial Class frmReporteExtras
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.graficoExtras = New System.Windows.Forms.DataVisualization.Charting.Chart()
-        Me.Line3 = New DevComponents.DotNetBar.Controls.Line()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lblMasUtilizado = New System.Windows.Forms.Label()
         Me.Line1 = New DevComponents.DotNetBar.Controls.Line()
@@ -40,49 +39,40 @@ Partial Class frmReporteExtras
         '
         Me.graficoExtras.BackColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
         Me.graficoExtras.BackSecondaryColor = System.Drawing.Color.White
-        ChartArea3.BackColor = System.Drawing.Color.Transparent
-        ChartArea3.Name = "ChartArea1"
-        Me.graficoExtras.ChartAreas.Add(ChartArea3)
-        Legend3.BackColor = System.Drawing.Color.Transparent
-        Legend3.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Legend3.IsTextAutoFit = False
-        Legend3.Name = "Legend1"
-        Me.graficoExtras.Legends.Add(Legend3)
+        ChartArea1.BackColor = System.Drawing.Color.Transparent
+        ChartArea1.Name = "ChartArea1"
+        Me.graficoExtras.ChartAreas.Add(ChartArea1)
+        Legend1.BackColor = System.Drawing.Color.Transparent
+        Legend1.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Legend1.IsTextAutoFit = False
+        Legend1.Name = "Legend1"
+        Me.graficoExtras.Legends.Add(Legend1)
         Me.graficoExtras.Location = New System.Drawing.Point(323, 50)
         Me.graficoExtras.Name = "graficoExtras"
         Me.graficoExtras.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent
-        Series3.BackSecondaryColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
-        Series3.BorderColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
-        Series3.ChartArea = "ChartArea1"
-        Series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut
-        Series3.Color = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
-        Series3.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Series3.IsValueShownAsLabel = True
-        Series3.IsXValueIndexed = True
-        Series3.LabelBackColor = System.Drawing.Color.Transparent
-        Series3.LabelBorderColor = System.Drawing.Color.Transparent
-        Series3.LabelBorderWidth = 0
-        Series3.Legend = "Legend1"
-        Series3.Name = "Extras"
-        Series3.ShadowColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
-        Series3.XValueMember = "nombre"
-        Series3.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[String]
-        Series3.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary
-        Series3.YValueMembers = "cantidad"
-        Series3.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32
-        Me.graficoExtras.Series.Add(Series3)
+        Series1.BackSecondaryColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
+        Series1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
+        Series1.ChartArea = "ChartArea1"
+        Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut
+        Series1.Color = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
+        Series1.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Series1.IsValueShownAsLabel = True
+        Series1.IsXValueIndexed = True
+        Series1.LabelBackColor = System.Drawing.Color.Transparent
+        Series1.LabelBorderColor = System.Drawing.Color.Transparent
+        Series1.LabelBorderWidth = 0
+        Series1.Legend = "Legend1"
+        Series1.Name = "Extras"
+        Series1.ShadowColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
+        Series1.XValueMember = "nombre"
+        Series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[String]
+        Series1.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary
+        Series1.YValueMembers = "cantidad"
+        Series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32
+        Me.graficoExtras.Series.Add(Series1)
         Me.graficoExtras.Size = New System.Drawing.Size(512, 383)
         Me.graficoExtras.TabIndex = 0
         Me.graficoExtras.Text = "Uso de extras"
-        '
-        'Line3
-        '
-        Me.Line3.BackColor = System.Drawing.Color.Transparent
-        Me.Line3.Location = New System.Drawing.Point(12, 33)
-        Me.Line3.Name = "Line3"
-        Me.Line3.Size = New System.Drawing.Size(823, 11)
-        Me.Line3.TabIndex = 15
-        Me.Line3.Text = "Line3"
         '
         'Label3
         '
@@ -150,13 +140,12 @@ Partial Class frmReporteExtras
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(847, 468)
+        Me.ClientSize = New System.Drawing.Size(842, 468)
         Me.Controls.Add(Me.lblCantidadUsos2)
         Me.Controls.Add(Me.lblMenosUtilizado)
         Me.Controls.Add(Me.lblCantidadUsos1)
         Me.Controls.Add(Me.Line1)
         Me.Controls.Add(Me.lblMasUtilizado)
-        Me.Controls.Add(Me.Line3)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.graficoExtras)
         Me.Name = "frmReporteExtras"
@@ -168,7 +157,6 @@ Partial Class frmReporteExtras
     End Sub
 
     Friend WithEvents graficoExtras As DataVisualization.Charting.Chart
-    Friend WithEvents Line3 As DevComponents.DotNetBar.Controls.Line
     Friend WithEvents Label3 As Label
     Friend WithEvents lblMasUtilizado As Label
     Friend WithEvents Line1 As DevComponents.DotNetBar.Controls.Line

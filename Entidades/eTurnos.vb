@@ -8,7 +8,7 @@ Public Class eTurnos
             Return _idTurno
         End Get
         Set(value As Integer)
-            _idTurno = Value
+            _idTurno = value
         End Set
     End Property
     Private _idCliente As UInt16
@@ -245,5 +245,29 @@ Public Class eTurnos
             MsgBox(ex.Message)
         End Try
 
+    End Sub
+    Public Sub reporteAlquilerDia(ByRef tabla As DataTable, ByRef fecha1 As Date)
+        Try
+
+            Dim comandoSQL As MySqlCommand = New MySqlCommand("SELECT `turnos`.`idTurno` AS `idTurno`, `turnos`.`fecha` AS `fecha`,`turnos`.`hora` AS `hora`, `turnos`.`descripcion` AS `descripcion`, `turnos`.`activo` AS `activo`, `cliente`.`nombre` AS `nombre`, `cliente`.`apellido` AS `apellido`, GROUP_CONCAT(`extras`.`nombre` SEPARATOR ', ') AS `extra` FROM (((`turnos` JOIN `cliente`) JOIN `extras`) JOIN `extraxturnos`) WHERE ((`turnos`.`activo` = 1) AND (`turnos`.`cliente` = `cliente`.`idCliente`) AND (`turnos`.`idTurno` = `extraxturnos`.`numTurno`) AND (`extras`.`idextra` = `extraxturnos`.`numExtra`) AND (`turnos`.`fecha` = @fecha)) GROUP BY `turnos`.`idTurno` ORDER BY `turnos`.`fecha` , `turnos`.`hora`")
+            comandoSQL.Parameters.Add("@fecha", MySqlDbType.Date).Value = fecha1
+            cdTurnos.CargarDatos(tabla, comandoSQL)
+        Catch ex As Exception
+            MsgBox(ex.Message)
+
+        End Try
+
+    End Sub
+    Public Sub reporteAlquilerPersonalizado(ByRef tabla As DataTable, ByRef fechaDesde As Date, ByRef fechaHasta As Date)
+        Try
+            Dim comandoSQL As MySqlCommand = New MySqlCommand("SELECT `turnos`.`idTurno` AS `idTurno`, `turnos`.`fecha` AS `fecha`,`turnos`.`hora` AS `hora`, `turnos`.`descripcion` AS `descripcion`, `turnos`.`activo` AS `activo`, `cliente`.`nombre` AS `nombre`, `cliente`.`apellido` AS `apellido`, GROUP_CONCAT(`extras`.`nombre` SEPARATOR ', ') AS `extra` FROM (((`turnos` JOIN `cliente`) JOIN `extras`) JOIN `extraxturnos`) WHERE ((`turnos`.`activo` = 1) AND (`turnos`.`cliente` = `cliente`.`idCliente`) AND (`turnos`.`idTurno` = `extraxturnos`.`numTurno`) AND (`extras`.`idextra` = `extraxturnos`.`numExtra`) AND (`turnos`.`fecha` between @fechaDesde and @fechaHasta)) GROUP BY `turnos`.`idTurno` ORDER BY `turnos`.`fecha` , `turnos`.`hora`")
+            comandoSQL.Parameters.Add("@fechaDesde", MySqlDbType.Date).Value = fechaDesde
+            comandoSQL.Parameters.Add("@fechaHasta", MySqlDbType.Date).Value = fechaHasta
+            cdTurnos.CargarDatos(tabla, comandoSQL)
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+
+        End Try
     End Sub
 End Class

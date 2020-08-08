@@ -32,9 +32,9 @@ Partial Class frmReportes
         '
         'pnlContenedor
         '
-        Me.pnlContenedor.Location = New System.Drawing.Point(227, 70)
+        Me.pnlContenedor.Location = New System.Drawing.Point(185, 70)
         Me.pnlContenedor.Name = "pnlContenedor"
-        Me.pnlContenedor.Size = New System.Drawing.Size(863, 507)
+        Me.pnlContenedor.Size = New System.Drawing.Size(873, 507)
         Me.pnlContenedor.TabIndex = 0
         '
         'Line3
