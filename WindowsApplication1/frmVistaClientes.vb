@@ -39,7 +39,7 @@
         End If
     End Sub
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
-        Me.Close()
+        Me.DialogResult = DialogResult.Cancel
     End Sub
 
     Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
@@ -64,5 +64,7 @@
         End If
     End Sub
 
-
+    Private Sub frmVistaClientes_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        Me.DialogResult = DialogResult.Cancel
+    End Sub
 End Class

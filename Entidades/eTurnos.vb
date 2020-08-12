@@ -53,11 +53,7 @@ Public Class eTurnos
             Return _fechaConsulta
         End Get
         Set(value As Date)
-            If value < Today Then
-                MsgBox("No se puede consultar una fecha anterior" & Chr(13) & "a la actual", MsgBoxStyle.Critical, "Búsqueda de turnos")
-            Else
-                _fechaConsulta = value
-            End If
+            _fechaConsulta = value
         End Set
     End Property
     Private _fecha As Date
@@ -144,7 +140,6 @@ Public Class eTurnos
     Public Function ConsultarDia()
         Dim comandoSQL As MySqlCommand = New MySqlCommand("select * from db_salon.turnos where fecha = @fecha")
         comandoSQL.Parameters.Add("@fecha", MySqlDbType.Date).Value = Me.fechaConsulta
-        '& "'" & _fechaConsulta.ToString("yyyy-MM-dd") & "'"
         Dim tabla As New DataTable
         cdTurnos.CargarDatos(tabla, comandoSQL)
         If tabla.Rows.Count = 0 Then
@@ -268,6 +263,14 @@ Public Class eTurnos
         Catch ex As Exception
             MsgBox(ex.Message)
 
+        End Try
+    End Sub
+    Public Sub reportarAlquiler(ByRef tabla As DataTable)
+        Try
+            Dim comandoSQL As String = "SELECT MONTH(fecha) as 'NroMes', count(idturno) as 'Cantidad' , meses.nombreMes from turnos, meses where month(fecha) = meses.idmes and fecha >= DATE_sub(CURDATE(), INTERVAL 12 MONTH) and CURDATE() >= fecha  GROUP BY MONTH(fecha) ORDER BY fecha"
+            cdTurnos.CargarDatos(tabla, comandoSQL)
+        Catch ex As Exception
+            MsgBox(ex.Message)
         End Try
     End Sub
 End Class

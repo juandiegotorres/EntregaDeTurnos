@@ -106,3 +106,35 @@ C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidade
 C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.dll
 C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.xml
 C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\bin\Debug\Entidades.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\bin\Debug\Entidades.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\bin\Debug\CapaDeDatos.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\bin\Debug\MySql.Data.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\bin\Debug\CapaDeDatos.pdb
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\bin\Debug\CapaDeDatos.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\bin\Debug\MySql.Data.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\obj\Debug\Entidades.vbprojAssemblyReference.cache
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\obj\Debug\Entidades.vbproj.CopyComplete
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\obj\Debug\Entidades.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\obj\Debug\Entidades.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\bin\Debug\Entidades.dll
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\bin\Debug\Entidades.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\bin\Debug\CapaDeDatos.dll
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\bin\Debug\MySql.Data.dll
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\bin\Debug\CapaDeDatos.pdb
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\bin\Debug\CapaDeDatos.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\bin\Debug\MySql.Data.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\obj\Debug\Entidades.vbprojAssemblyReference.cache
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\obj\Debug\Entidades.vbproj.CopyComplete
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\obj\Debug\Entidades.dll
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\obj\Debug\Entidades.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\Entidades\obj\Debug\Entidades.pdb

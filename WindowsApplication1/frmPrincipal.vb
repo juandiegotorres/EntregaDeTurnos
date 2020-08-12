@@ -285,7 +285,7 @@ Public Class frmPrincipal
         End If
     End Sub
 
-    Private Sub btnBajas1_Click(sender As Object, e As EventArgs) Handles btnBajas1.Click
+    Private Sub btnBajas1_Click(sender As Object, e As EventArgs)
         Me.Hide()
         frmBajas.ShowDialog()
         If DialogResult.OK Then
@@ -294,7 +294,7 @@ Public Class frmPrincipal
         End If
     End Sub
 
-    Private Sub BtnBajaExtras_Click(sender As Object, e As EventArgs) Handles btnBajaExtras.Click
+    Private Sub BtnBajaExtras_Click(sender As Object, e As EventArgs)
         Me.Hide()
         frmBajas.ShowDialog()
         If DialogResult.OK Then
@@ -304,6 +304,7 @@ Public Class frmPrincipal
     End Sub
 
     Private Sub btnReportes_Click(sender As Object, e As EventArgs) Handles btnReportes.Click
+        Me.Hide()
         frmReportes.Show()
     End Sub
 

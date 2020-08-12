@@ -32,29 +32,30 @@
         'los datos del turno
 
         If editar Then
+
             'Le asigno a la propiedad idTurno y idCliente de la clase eTurno el id que le pasé
             'al formulario al abrirlo
             e_turno.idTurno = _idTurno
-            e_turno.idCliente = _idCliente
-            'LLamo a "cargarModificar" que me trae los datos del turno de la base de datos
-            'y me los guarda en la clase eTurno, luego resta llenar los text box y datetimepicker
-            e_turno.cargarModificar()
-            txtCliente.Text = e_turno.NombreCompleto
-            dtiFechaTurno.Text = e_turno.fecha
-            dtiHoraTurno.Text = e_turno.hora
-            txtDescripcion.Text = e_turno.descripcion
-            Dim tablaExtras As New DataTable
-            'Proceso para llenar el checked list box con los extras de la base de datos
-            e_extra.cargarCLB(tablaExtras)
-            With clbExtras
-                .DataSource = tablaExtras
-                .ValueMember = "idextra"
-                .DisplayMember = "nombre"
-            End With
-            'Este metodo llena un listbox con los id de los extras seleccionados junto con  
-            'el id del turno elegido
-            e_turno.cargarExtras()
-            cbSinExtras.Checked = False
+                e_turno.idCliente = _idCliente
+                'LLamo a "cargarModificar" que me trae los datos del turno de la base de datos
+                'y me los guarda en la clase eTurno, luego resta llenar los text box y datetimepicker
+                e_turno.cargarModificar()
+                txtCliente.Text = e_turno.NombreCompleto
+                dtiFechaTurno.Text = e_turno.fecha
+                dtiHoraTurno.Text = e_turno.hora
+                txtDescripcion.Text = e_turno.descripcion
+                Dim tablaExtras As New DataTable
+                'Proceso para llenar el checked list box con los extras de la base de datos
+                e_extra.cargarCLB(tablaExtras)
+                With clbExtras
+                    .DataSource = tablaExtras
+                    .ValueMember = "idextra"
+                    .DisplayMember = "nombre"
+                End With
+                'Este metodo llena un listbox con los id de los extras seleccionados junto con  
+                'el id del turno elegido
+                e_turno.cargarExtras()
+                cbSinExtras.Checked = False
             'Recorro los items del checked list box y voy seleccionando los extras de 
             'la lista que llene anteriormente
             'Dim extraSeleccionado As UInteger
@@ -63,33 +64,12 @@
             '        clbExtras.SetItemChecked(extraSeleccionado - 1, True)
             '    Next
             'frmIdExtras.Clear()
-            Dim tablaModificarExtras As New DataTable
-            e_turno.modificarExtraCliente(tablaModificarExtras)
-
-
+            remarcarExtras()
             'Dim a As String = clbExtras.Items(i).ToString
             'Dim s As String = a
             'clbExtras.FindString("Pelotero")
 
-
-
-
-            If tablaModificarExtras.Rows.Count > 0 Then
-                If tablaModificarExtras.Rows(0).ItemArray(0) = 0 Then
-                    cbSinExtras.Checked = True
-                Else
-                    For i = 0 To clbExtras.Items.Count - 1
-                        For a = 0 To tablaModificarExtras.Rows.Count - 1
-                            Dim index As Integer = clbExtras.FindString(tablaModificarExtras.Rows(a).Item("nombre").ToString)
-                            clbExtras.SetItemChecked(index, True)
-                        Next
-                    Next
-                End If
-
-            End If
-
-
-            Else
+        Else
             'Si abro el formulario para agregar pongo los datetimepicker en la fecha y hora de hoy
             dtiFechaTurno.Text = Today
             dtiHoraTurno.Text = Now
@@ -105,6 +85,30 @@
 
         End If
     End Sub
+    Private Function remarcarExtras()
+        Try
+            Dim tablaModificarExtras As New DataTable
+            e_turno.modificarExtraCliente(tablaModificarExtras)
+            If tablaModificarExtras.Rows.Count > 0 Then
+                If tablaModificarExtras.Rows(0).ItemArray(0) = 0 Then
+                    cbSinExtras.Checked = True
+                Else
+                    For i = 0 To clbExtras.Items.Count - 1
+                        For a = 0 To tablaModificarExtras.Rows.Count - 1
+                            Dim index As Integer = clbExtras.FindString(tablaModificarExtras.Rows(a).Item("nombre").ToString)
+                            clbExtras.SetItemChecked(index, True)
+                        Next
+                    Next
+                    Return True
+                End If
+            End If
+        Catch ex As Exception
+            If MsgBox("Hubo un problema al recuperar los extras, por favor verifique que ningun extra haya sido dado de baja", MsgBoxStyle.OkOnly, "Turnos") = MsgBoxResult.Ok Then
+                Me.Close()
+            End If
+            Return False
+        End Try
+    End Function
     Private Sub btnExistente_Click(sender As Object, e As EventArgs) Handles btnExistente.Click
         Dim vistaCliente As New frmVistaClientes
         With vistaCliente
@@ -130,32 +134,38 @@
     '        End Try
     '    End If
     'End Sub
-    'Public Function comprobarDatos()
-    '    Dim _control As Control
-    '    For Each _control In Me.Controls
-    '        If TypeOf _control Is TextBox Then
-    '            If _control.Text = "" Then
-    '                MsgBox("Faltan completar datos", MsgBoxStyle.Exclamation, "Agregar cliente")
-    '                Return False
+    Public Function comprobardatos()
+        Dim _control As Control
+        For Each _control In Me.Controls
+            If TypeOf _control Is TextBox Then
+                If _control.Text = "" Then
+                    MsgBox("faltan completar datos", MsgBoxStyle.Exclamation, "agregar cliente")
+                    Return False
 
-    '            End If
-    '        End If
-    '        If txtCliente.Text = "" Then
-    '            MsgBox("Faltan completar datos", MsgBoxStyle.Exclamation, "Agregar cliente")
-    '            Return False
-    '        End If
-    '    Next
-    '    Return True
-    'End Function
+                End If
+            End If
+            If txtCliente.Text = "" Then
+                MsgBox("faltan completar datos", MsgBoxStyle.Exclamation, "agregar cliente")
+                Return False
+            End If
+        Next
+        Return True
+    End Function
     Private Function btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
         'Verifico si ha elegido algun cliente
-        If txtCliente.Text = "" Then
+        If txtCliente.Text = "" Or txtCliente.Text = " " Then
             MsgBox("Debe agregar un cliente", MsgBoxStyle.Exclamation, "Agregar cliente")
             Return False
         Else
+
             'Antes de asignar todas las variable consulto si el dia esta ocupado
-            If e_turno.ConsultarDia() = False Then
+            e_turno.fechaConsulta = dtiFechaTurno.Text
+            If e_turno.ConsultarDia() = False And editar = False Then
                 MsgBox("Día ocupado, por favor escoja otro", MsgBoxStyle.Exclamation, "Turnos")
+                Return False
+            End If
+            If clbExtras.CheckedItems.Count = 0 Then
+                MsgBox("Seleccione la opción sin extras", MsgBoxStyle.Exclamation, "Turnos")
                 Return False
             End If
             'Si el dia no esta ocupado y si el cliente esta seleccionado
@@ -172,7 +182,8 @@
             Else
                 For i = 0 To clbExtras.CheckedIndices.Count - 1
                     If i < clbExtras.CheckedIndices.Count Then
-                        frmIdExtras.Add(clbExtras.CheckedIndices(i))
+                        Dim a As Integer = clbExtras.CheckedIndices(i)
+                        frmIdExtras.Add(a + 1)
                     End If
                 Next
                 e_turno.idExtras = frmIdExtras

@@ -157,6 +157,12 @@
     <Compile Include="Reportes\frmReporteAlquiler.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reportes\frmReporteAlquilerInicio.Designer.vb">
+      <DependentUpon>frmReporteAlquilerInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteAlquilerInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Reportes\frmReporteExtras.Designer.vb">
       <DependentUpon>frmReporteExtras.vb</DependentUpon>
     </Compile>
@@ -200,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\frmReporteAlquiler.resx">
       <DependentUpon>frmReporteAlquiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteAlquilerInicio.resx">
+      <DependentUpon>frmReporteAlquilerInicio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\frmReporteExtras.resx">
       <DependentUpon>frmReporteExtras.vb</DependentUpon>

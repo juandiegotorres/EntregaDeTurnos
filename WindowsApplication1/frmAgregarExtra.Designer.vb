@@ -189,6 +189,7 @@ Partial Class frmAgregarExtra
         Me.MinimizeBox = False
         Me.MinimumSize = New System.Drawing.Size(400, 303)
         Me.Name = "frmAgregarExtra"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = ".:Agregar Extra:."
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -71,6 +71,7 @@ Public Class frmAgregarCliente
             e_Persona.Apellido = txtApellido.Text
             e_Persona.Documento = txtDocumento.Text
             e_Persona.Direccion = txtDireccion.Text
+            e_Persona.idLocalidad = txtLocalidad.Tag
             e_Persona.Telefono = txtTelefono.Text
             'Ejecuto el comando para insertar los datos por primera vez
             e_Persona.modificarCliente(dtCliente)

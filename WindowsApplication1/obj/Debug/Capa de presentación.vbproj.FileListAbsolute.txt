@@ -256,3 +256,75 @@ C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\WindowsA
 C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReportes.resources
 C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReporteAlquiler.resources
 C:\Users\Juandi\Documents\Visual Studio 2019\Projects\Entrega de Turnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReporteExtras.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\CapaDeDatos.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\DevComponents.Instrumentation.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\Entidades.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\CapaDeDatos.pdb
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\CapaDeDatos.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\Entidades.pdb
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\Entidades.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\DevComponents.Instrumentation.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\bin\Debug\MySql.Data.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\Capa de presentación.vbprojAssemblyReference.cache
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmAgregarCliente.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmAgregarExtra.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmAgregarTurno.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmBajas.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmNuevaLocalidad.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmPrincipal.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReportes.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmVistaClientes.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmVistaLocalidades.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReporteAlquiler.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReporteExtras.resources
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\Capa de presentación.vbproj.GenerateResource.cache
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\Capa de presentación.vbproj.CoreCompileInputs.cache
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\Capa de presentación.vbproj.CopyComplete
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Juandi\Documents\Git\EntregaDeTurnos\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReporteAlquilerInicio.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\Capa de presentación.vbprojAssemblyReference.cache
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmAgregarCliente.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmAgregarExtra.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmAgregarTurno.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmBajas.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmNuevaLocalidad.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmPrincipal.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReportes.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmVistaClientes.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmVistaLocalidades.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReporteAlquiler.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReporteAlquilerInicio.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.frmReporteExtras.resources
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\Capa de presentación.vbproj.GenerateResource.cache
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\Capa de presentación.vbproj.CoreCompileInputs.cache
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\CapaDeDatos.dll
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\Entidades.dll
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\CapaDeDatos.pdb
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\CapaDeDatos.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\Entidades.pdb
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\Entidades.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\DevComponents.Instrumentation.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\MySql.Data.xml
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\obj\Debug\Capa de presentación.vbproj.CopyComplete
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Juandi\Documents\GitHub\EntregaDeTurnos\WindowsApplication1\bin\Debug\DevComponents.Instrumentation.dll

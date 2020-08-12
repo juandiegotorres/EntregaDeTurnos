@@ -12,6 +12,9 @@
         formHijo.Show()
     End Sub
 
+    Private Sub frmReportes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        abrirForm(frmReporteAlquilerInicio)
+    End Sub
 
     Private Sub btnAlquiler_Click(sender As Object, e As EventArgs) Handles btnAlquiler.Click
         abrirForm(frmReporteAlquiler)
@@ -19,5 +22,13 @@
 
     Private Sub btnExtras_Click(sender As Object, e As EventArgs) Handles btnExtras.Click
         abrirForm(frmReporteExtras)
+    End Sub
+
+    Private Sub btnClientes_Click(sender As Object, e As EventArgs) Handles btnClientes.Click
+        abrirForm(frmReporteAlquilerInicio)
+    End Sub
+
+    Private Sub frmReportes_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        frmPrincipal.Show()
     End Sub
 End Class

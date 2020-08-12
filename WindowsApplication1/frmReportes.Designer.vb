@@ -84,7 +84,7 @@ Partial Class frmReportes
         Me.btnClientes.Name = "btnClientes"
         Me.btnClientes.Size = New System.Drawing.Size(152, 63)
         Me.btnClientes.TabIndex = 16
-        Me.btnClientes.Text = "Clientes mas usuales"
+        Me.btnClientes.Text = "Reporte de los últimos 12 meses"
         Me.btnClientes.UseVisualStyleBackColor = True
         '
         'frmReportes
@@ -99,8 +99,10 @@ Partial Class frmReportes
         Me.Controls.Add(Me.Line3)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.pnlContenedor)
+        Me.MaximizeBox = False
         Me.Name = "frmReportes"
-        Me.Text = "frmReportes"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Reportes"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

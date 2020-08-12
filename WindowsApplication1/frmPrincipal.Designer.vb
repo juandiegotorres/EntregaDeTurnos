@@ -23,61 +23,14 @@ Partial Class frmPrincipal
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim btnAgregarExtra As System.Windows.Forms.Button
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.SuperTabControl1 = New DevComponents.DotNetBar.SuperTabControl()
-        Me.SuperTabControlPanel1 = New DevComponents.DotNetBar.SuperTabControlPanel()
-        Me.btnReportes = New System.Windows.Forms.Button()
-        Me.lblDisponibilidad = New System.Windows.Forms.Label()
-        Me.picOcupado = New System.Windows.Forms.PictureBox()
-        Me.picDisponible = New System.Windows.Forms.PictureBox()
-        Me.btnBajas = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtBuscarTurno = New System.Windows.Forms.TextBox()
-        Me.dgvTurnos = New System.Windows.Forms.DataGridView()
-        Me.idTurno = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.cliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.nombreCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.apellidoCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.fecha = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.hora = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.descripcion = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.activoturno = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.extras = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.btnBuscarFecha = New System.Windows.Forms.Button()
-        Me.dtiFechaBusqueda = New DevComponents.Editors.DateTimeAdv.DateTimeInput()
-        Me.Line3 = New DevComponents.DotNetBar.Controls.Line()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.btnEliminarTurno = New System.Windows.Forms.Button()
-        Me.btnModificarTurno = New System.Windows.Forms.Button()
-        Me.Line2 = New DevComponents.DotNetBar.Controls.Line()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.btnNuevoTurno = New System.Windows.Forms.Button()
-        Me.Turnos = New DevComponents.DotNetBar.SuperTabItem()
-        Me.SuperTabControlPanel3 = New DevComponents.DotNetBar.SuperTabControlPanel()
-        Me.btnBajaExtras = New System.Windows.Forms.Button()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.dgvExtras = New System.Windows.Forms.DataGridView()
-        Me.idExtra = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.nombreExtra = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.descripcionExtra = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.precio = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.activoExtra = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.txtBuscarExtra = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Line6 = New DevComponents.DotNetBar.Controls.Line()
-        Me.btnEliminarExtra = New System.Windows.Forms.Button()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.btnModificarExtra = New System.Windows.Forms.Button()
-        Me.Line7 = New DevComponents.DotNetBar.Controls.Line()
-        Me.SuperTabItem2 = New DevComponents.DotNetBar.SuperTabItem()
         Me.SuperTabControlPanel2 = New DevComponents.DotNetBar.SuperTabControlPanel()
-        Me.btnBajas1 = New System.Windows.Forms.Button()
         Me.txtBuscarCliente = New System.Windows.Forms.TextBox()
         Me.rbDocumentoCliente = New System.Windows.Forms.RadioButton()
         Me.rbApellidoCliente = New System.Windows.Forms.RadioButton()
@@ -102,20 +55,65 @@ Partial Class frmPrincipal
         Me.btnAgregarCliente = New System.Windows.Forms.Button()
         Me.Line4 = New DevComponents.DotNetBar.Controls.Line()
         Me.SuperTabItem1 = New DevComponents.DotNetBar.SuperTabItem()
+        Me.SuperTabControlPanel3 = New DevComponents.DotNetBar.SuperTabControlPanel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.dgvExtras = New System.Windows.Forms.DataGridView()
+        Me.idExtra = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nombreExtra = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.descripcionExtra = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.precio = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.activoExtra = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.txtBuscarExtra = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Line6 = New DevComponents.DotNetBar.Controls.Line()
+        Me.btnEliminarExtra = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.btnModificarExtra = New System.Windows.Forms.Button()
+        Me.Line7 = New DevComponents.DotNetBar.Controls.Line()
+        Me.SuperTabItem2 = New DevComponents.DotNetBar.SuperTabItem()
+        Me.SuperTabControlPanel1 = New DevComponents.DotNetBar.SuperTabControlPanel()
+        Me.lblDisponibilidad = New System.Windows.Forms.Label()
+        Me.picOcupado = New System.Windows.Forms.PictureBox()
+        Me.picDisponible = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtBuscarTurno = New System.Windows.Forms.TextBox()
+        Me.dgvTurnos = New System.Windows.Forms.DataGridView()
+        Me.idTurno = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.cliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nombreCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.apellidoCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.fecha = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.hora = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.descripcion = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.activoturno = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.extras = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnBuscarFecha = New System.Windows.Forms.Button()
+        Me.dtiFechaBusqueda = New DevComponents.Editors.DateTimeAdv.DateTimeInput()
+        Me.Line3 = New DevComponents.DotNetBar.Controls.Line()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.btnEliminarTurno = New System.Windows.Forms.Button()
+        Me.btnModificarTurno = New System.Windows.Forms.Button()
+        Me.Line2 = New DevComponents.DotNetBar.Controls.Line()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.btnNuevoTurno = New System.Windows.Forms.Button()
+        Me.Turnos = New DevComponents.DotNetBar.SuperTabItem()
+        Me.btnReportes = New System.Windows.Forms.Button()
+        Me.btnBajas = New System.Windows.Forms.Button()
         Me.SuperTabItem3 = New DevComponents.DotNetBar.SuperTabItem()
         Me.SuperTabControlPanel4 = New DevComponents.DotNetBar.SuperTabControlPanel()
         btnAgregarExtra = New System.Windows.Forms.Button()
         CType(Me.SuperTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuperTabControl1.SuspendLayout()
+        Me.SuperTabControlPanel2.SuspendLayout()
+        CType(Me.dgvClientes, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuperTabControlPanel3.SuspendLayout()
+        CType(Me.dgvExtras, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuperTabControlPanel1.SuspendLayout()
         CType(Me.picOcupado, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picDisponible, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvTurnos, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtiFechaBusqueda, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuperTabControlPanel3.SuspendLayout()
-        CType(Me.dgvExtras, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuperTabControlPanel2.SuspendLayout()
-        CType(Me.dgvClientes, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnAgregarExtra
@@ -149,8 +147,8 @@ Partial Class frmPrincipal
         Me.SuperTabControl1.ControlBox.Name = ""
         Me.SuperTabControl1.ControlBox.SubItems.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.SuperTabControl1.ControlBox.MenuBox, Me.SuperTabControl1.ControlBox.CloseBox})
         Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel1)
-        Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel3)
         Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel2)
+        Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel3)
         Me.SuperTabControl1.ForeColor = System.Drawing.Color.Black
         Me.SuperTabControl1.Location = New System.Drawing.Point(1, 1)
         Me.SuperTabControl1.Name = "SuperTabControl1"
@@ -166,13 +164,451 @@ Partial Class frmPrincipal
         Me.SuperTabControl1.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.OneNote2007
         Me.SuperTabControl1.Text = "       Extras       "
         '
+        'SuperTabControlPanel2
+        '
+        Me.SuperTabControlPanel2.Controls.Add(Me.txtBuscarCliente)
+        Me.SuperTabControlPanel2.Controls.Add(Me.rbDocumentoCliente)
+        Me.SuperTabControlPanel2.Controls.Add(Me.rbApellidoCliente)
+        Me.SuperTabControlPanel2.Controls.Add(Me.rbNombreCliente)
+        Me.SuperTabControlPanel2.Controls.Add(Me.dgvClientes)
+        Me.SuperTabControlPanel2.Controls.Add(Me.Label5)
+        Me.SuperTabControlPanel2.Controls.Add(Me.Line5)
+        Me.SuperTabControlPanel2.Controls.Add(Me.btnEliminarCliente)
+        Me.SuperTabControlPanel2.Controls.Add(Me.Label4)
+        Me.SuperTabControlPanel2.Controls.Add(Me.btnModificarCliente)
+        Me.SuperTabControlPanel2.Controls.Add(Me.btnAgregarCliente)
+        Me.SuperTabControlPanel2.Controls.Add(Me.Line4)
+        Me.SuperTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SuperTabControlPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.SuperTabControlPanel2.Name = "SuperTabControlPanel2"
+        Me.SuperTabControlPanel2.Size = New System.Drawing.Size(1005, 593)
+        Me.SuperTabControlPanel2.TabIndex = 0
+        Me.SuperTabControlPanel2.TabItem = Me.SuperTabItem1
+        Me.SuperTabControlPanel2.Visible = False
+        '
+        'txtBuscarCliente
+        '
+        Me.txtBuscarCliente.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtBuscarCliente.Location = New System.Drawing.Point(19, 54)
+        Me.txtBuscarCliente.Name = "txtBuscarCliente"
+        Me.txtBuscarCliente.Size = New System.Drawing.Size(207, 23)
+        Me.txtBuscarCliente.TabIndex = 24
+        '
+        'rbDocumentoCliente
+        '
+        Me.rbDocumentoCliente.AutoSize = True
+        Me.rbDocumentoCliente.BackColor = System.Drawing.Color.Transparent
+        Me.rbDocumentoCliente.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rbDocumentoCliente.Location = New System.Drawing.Point(405, 56)
+        Me.rbDocumentoCliente.Name = "rbDocumentoCliente"
+        Me.rbDocumentoCliente.Size = New System.Drawing.Size(100, 20)
+        Me.rbDocumentoCliente.TabIndex = 23
+        Me.rbDocumentoCliente.TabStop = True
+        Me.rbDocumentoCliente.Text = "Documento"
+        Me.rbDocumentoCliente.UseVisualStyleBackColor = False
+        '
+        'rbApellidoCliente
+        '
+        Me.rbApellidoCliente.AutoSize = True
+        Me.rbApellidoCliente.BackColor = System.Drawing.Color.Transparent
+        Me.rbApellidoCliente.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rbApellidoCliente.Location = New System.Drawing.Point(323, 56)
+        Me.rbApellidoCliente.Name = "rbApellidoCliente"
+        Me.rbApellidoCliente.Size = New System.Drawing.Size(76, 20)
+        Me.rbApellidoCliente.TabIndex = 22
+        Me.rbApellidoCliente.TabStop = True
+        Me.rbApellidoCliente.Text = "Apellido"
+        Me.rbApellidoCliente.UseVisualStyleBackColor = False
+        '
+        'rbNombreCliente
+        '
+        Me.rbNombreCliente.AutoSize = True
+        Me.rbNombreCliente.BackColor = System.Drawing.Color.Transparent
+        Me.rbNombreCliente.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rbNombreCliente.Location = New System.Drawing.Point(242, 56)
+        Me.rbNombreCliente.Name = "rbNombreCliente"
+        Me.rbNombreCliente.Size = New System.Drawing.Size(75, 20)
+        Me.rbNombreCliente.TabIndex = 21
+        Me.rbNombreCliente.TabStop = True
+        Me.rbNombreCliente.Text = "Nombre"
+        Me.rbNombreCliente.UseVisualStyleBackColor = False
+        '
+        'dgvClientes
+        '
+        Me.dgvClientes.AllowUserToAddRows = False
+        Me.dgvClientes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvClientes.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
+        Me.dgvClientes.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.idCliente, Me.activo, Me.nombre, Me.apellido, Me.documento, Me.Provincia, Me.nombreLocalidad, Me.localidad, Me.CodPostal, Me.direccion, Me.telefono})
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvClientes.DefaultCellStyle = DataGridViewCellStyle4
+        Me.dgvClientes.Location = New System.Drawing.Point(16, 135)
+        Me.dgvClientes.Name = "dgvClientes"
+        Me.dgvClientes.ReadOnly = True
+        Me.dgvClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgvClientes.Size = New System.Drawing.Size(837, 414)
+        Me.dgvClientes.TabIndex = 20
+        '
+        'idCliente
+        '
+        Me.idCliente.DataPropertyName = "idCliente"
+        Me.idCliente.HeaderText = "Cliente"
+        Me.idCliente.Name = "idCliente"
+        Me.idCliente.ReadOnly = True
+        Me.idCliente.Visible = False
+        '
+        'activo
+        '
+        Me.activo.DataPropertyName = "activo"
+        Me.activo.HeaderText = "Activo"
+        Me.activo.Name = "activo"
+        Me.activo.ReadOnly = True
+        Me.activo.Visible = False
+        '
+        'nombre
+        '
+        Me.nombre.DataPropertyName = "nombre"
+        Me.nombre.HeaderText = "Nombre"
+        Me.nombre.Name = "nombre"
+        Me.nombre.ReadOnly = True
+        '
+        'apellido
+        '
+        Me.apellido.DataPropertyName = "apellido"
+        Me.apellido.HeaderText = "Apellido"
+        Me.apellido.Name = "apellido"
+        Me.apellido.ReadOnly = True
+        '
+        'documento
+        '
+        Me.documento.DataPropertyName = "documento"
+        Me.documento.HeaderText = "Documento"
+        Me.documento.Name = "documento"
+        Me.documento.ReadOnly = True
+        '
+        'Provincia
+        '
+        Me.Provincia.DataPropertyName = "idProvincia"
+        Me.Provincia.HeaderText = "Provincia"
+        Me.Provincia.Name = "Provincia"
+        Me.Provincia.ReadOnly = True
+        Me.Provincia.Visible = False
+        '
+        'nombreLocalidad
+        '
+        Me.nombreLocalidad.DataPropertyName = "nombreLocalidad"
+        Me.nombreLocalidad.HeaderText = "Localidad"
+        Me.nombreLocalidad.Name = "nombreLocalidad"
+        Me.nombreLocalidad.ReadOnly = True
+        '
+        'localidad
+        '
+        Me.localidad.DataPropertyName = "localidad"
+        Me.localidad.HeaderText = "Localidad"
+        Me.localidad.Name = "localidad"
+        Me.localidad.ReadOnly = True
+        Me.localidad.Visible = False
+        '
+        'CodPostal
+        '
+        Me.CodPostal.DataPropertyName = "codPostal"
+        Me.CodPostal.HeaderText = "Cod Postal"
+        Me.CodPostal.Name = "CodPostal"
+        Me.CodPostal.ReadOnly = True
+        Me.CodPostal.Visible = False
+        '
+        'direccion
+        '
+        Me.direccion.DataPropertyName = "direccion"
+        Me.direccion.HeaderText = "Dirección"
+        Me.direccion.Name = "direccion"
+        Me.direccion.ReadOnly = True
+        '
+        'telefono
+        '
+        Me.telefono.DataPropertyName = "telefono"
+        Me.telefono.HeaderText = "Teléfono"
+        Me.telefono.Name = "telefono"
+        Me.telefono.ReadOnly = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(11, 9)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(180, 25)
+        Me.Label5.TabIndex = 15
+        Me.Label5.Text = "Buscar Cliente"
+        '
+        'Line5
+        '
+        Me.Line5.BackColor = System.Drawing.Color.Transparent
+        Me.Line5.Location = New System.Drawing.Point(16, 31)
+        Me.Line5.Name = "Line5"
+        Me.Line5.Size = New System.Drawing.Size(708, 10)
+        Me.Line5.TabIndex = 16
+        Me.Line5.Text = "Line5"
+        '
+        'btnEliminarCliente
+        '
+        Me.btnEliminarCliente.Font = New System.Drawing.Font("Verdana", 12.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEliminarCliente.Location = New System.Drawing.Point(871, 260)
+        Me.btnEliminarCliente.Name = "btnEliminarCliente"
+        Me.btnEliminarCliente.Size = New System.Drawing.Size(119, 43)
+        Me.btnEliminarCliente.TabIndex = 14
+        Me.btnEliminarCliente.Text = "Dar de Baja"
+        Me.btnEliminarCliente.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(11, 100)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(435, 25)
+        Me.Label4.TabIndex = 11
+        Me.Label4.Text = "Alta, baja y modificación de clientes"
+        '
+        'btnModificarCliente
+        '
+        Me.btnModificarCliente.Font = New System.Drawing.Font("Verdana", 12.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnModificarCliente.Location = New System.Drawing.Point(871, 198)
+        Me.btnModificarCliente.Name = "btnModificarCliente"
+        Me.btnModificarCliente.Size = New System.Drawing.Size(119, 43)
+        Me.btnModificarCliente.TabIndex = 13
+        Me.btnModificarCliente.Text = "Modificar"
+        Me.btnModificarCliente.UseVisualStyleBackColor = True
+        '
+        'btnAgregarCliente
+        '
+        Me.btnAgregarCliente.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAgregarCliente.Location = New System.Drawing.Point(871, 136)
+        Me.btnAgregarCliente.Name = "btnAgregarCliente"
+        Me.btnAgregarCliente.Size = New System.Drawing.Size(119, 43)
+        Me.btnAgregarCliente.TabIndex = 10
+        Me.btnAgregarCliente.Text = "Agregar"
+        Me.btnAgregarCliente.UseVisualStyleBackColor = True
+        '
+        'Line4
+        '
+        Me.Line4.BackColor = System.Drawing.Color.Transparent
+        Me.Line4.Location = New System.Drawing.Point(16, 122)
+        Me.Line4.Name = "Line4"
+        Me.Line4.Size = New System.Drawing.Size(708, 10)
+        Me.Line4.TabIndex = 12
+        Me.Line4.Text = "Line4"
+        '
+        'SuperTabItem1
+        '
+        Me.SuperTabItem1.AttachedControl = Me.SuperTabControlPanel2
+        Me.SuperTabItem1.GlobalItem = False
+        Me.SuperTabItem1.Name = "SuperTabItem1"
+        Me.SuperTabItem1.Text = "      Clientes      "
+        Me.SuperTabItem1.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center
+        '
+        'SuperTabControlPanel3
+        '
+        Me.SuperTabControlPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.SuperTabControlPanel3.Controls.Add(Me.Label8)
+        Me.SuperTabControlPanel3.Controls.Add(Me.dgvExtras)
+        Me.SuperTabControlPanel3.Controls.Add(Me.txtBuscarExtra)
+        Me.SuperTabControlPanel3.Controls.Add(Me.Label6)
+        Me.SuperTabControlPanel3.Controls.Add(Me.Line6)
+        Me.SuperTabControlPanel3.Controls.Add(Me.btnEliminarExtra)
+        Me.SuperTabControlPanel3.Controls.Add(Me.Label7)
+        Me.SuperTabControlPanel3.Controls.Add(Me.btnModificarExtra)
+        Me.SuperTabControlPanel3.Controls.Add(btnAgregarExtra)
+        Me.SuperTabControlPanel3.Controls.Add(Me.Line7)
+        Me.SuperTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SuperTabControlPanel3.Location = New System.Drawing.Point(0, 0)
+        Me.SuperTabControlPanel3.Name = "SuperTabControlPanel3"
+        Me.SuperTabControlPanel3.Size = New System.Drawing.Size(1005, 593)
+        Me.SuperTabControlPanel3.TabIndex = 0
+        Me.SuperTabControlPanel3.TabItem = Me.SuperTabItem2
+        Me.SuperTabControlPanel3.Visible = False
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(16, 60)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(75, 18)
+        Me.Label8.TabIndex = 27
+        Me.Label8.Text = "Nombre:"
+        '
+        'dgvExtras
+        '
+        Me.dgvExtras.AllowUserToAddRows = False
+        Me.dgvExtras.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvExtras.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        Me.dgvExtras.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvExtras.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.idExtra, Me.nombreExtra, Me.descripcionExtra, Me.precio, Me.cantidad, Me.activoExtra})
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvExtras.DefaultCellStyle = DataGridViewCellStyle6
+        Me.dgvExtras.Location = New System.Drawing.Point(16, 135)
+        Me.dgvExtras.Name = "dgvExtras"
+        Me.dgvExtras.ReadOnly = True
+        Me.dgvExtras.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgvExtras.Size = New System.Drawing.Size(837, 414)
+        Me.dgvExtras.TabIndex = 17
+        '
+        'idExtra
+        '
+        Me.idExtra.DataPropertyName = "idExtra"
+        Me.idExtra.HeaderText = "ID Extra"
+        Me.idExtra.Name = "idExtra"
+        Me.idExtra.ReadOnly = True
+        Me.idExtra.Visible = False
+        '
+        'nombreExtra
+        '
+        Me.nombreExtra.DataPropertyName = "nombre"
+        Me.nombreExtra.HeaderText = "Nombre"
+        Me.nombreExtra.Name = "nombreExtra"
+        Me.nombreExtra.ReadOnly = True
+        '
+        'descripcionExtra
+        '
+        Me.descripcionExtra.DataPropertyName = "descripcion"
+        Me.descripcionExtra.HeaderText = "Descripcion"
+        Me.descripcionExtra.Name = "descripcionExtra"
+        Me.descripcionExtra.ReadOnly = True
+        '
+        'precio
+        '
+        Me.precio.DataPropertyName = "precio"
+        Me.precio.HeaderText = "Precio"
+        Me.precio.Name = "precio"
+        Me.precio.ReadOnly = True
+        '
+        'cantidad
+        '
+        Me.cantidad.DataPropertyName = "cantidad"
+        Me.cantidad.HeaderText = "Cantidad"
+        Me.cantidad.Name = "cantidad"
+        Me.cantidad.ReadOnly = True
+        '
+        'activoExtra
+        '
+        Me.activoExtra.DataPropertyName = "activo"
+        Me.activoExtra.HeaderText = "Activo"
+        Me.activoExtra.Name = "activoExtra"
+        Me.activoExtra.ReadOnly = True
+        Me.activoExtra.Visible = False
+        '
+        'txtBuscarExtra
+        '
+        Me.txtBuscarExtra.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtBuscarExtra.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txtBuscarExtra.Location = New System.Drawing.Point(104, 59)
+        Me.txtBuscarExtra.Name = "txtBuscarExtra"
+        Me.txtBuscarExtra.Size = New System.Drawing.Size(218, 23)
+        Me.txtBuscarExtra.TabIndex = 26
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(11, 9)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(160, 25)
+        Me.Label6.TabIndex = 24
+        Me.Label6.Text = "Buscar Extra"
+        '
+        'Line6
+        '
+        Me.Line6.BackColor = System.Drawing.Color.Transparent
+        Me.Line6.Location = New System.Drawing.Point(16, 31)
+        Me.Line6.Name = "Line6"
+        Me.Line6.Size = New System.Drawing.Size(708, 10)
+        Me.Line6.TabIndex = 25
+        Me.Line6.Text = "Line6"
+        '
+        'btnEliminarExtra
+        '
+        Me.btnEliminarExtra.Font = New System.Drawing.Font("Verdana", 12.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEliminarExtra.Location = New System.Drawing.Point(871, 260)
+        Me.btnEliminarExtra.Name = "btnEliminarExtra"
+        Me.btnEliminarExtra.Size = New System.Drawing.Size(119, 43)
+        Me.btnEliminarExtra.TabIndex = 23
+        Me.btnEliminarExtra.Text = "Dar de baja"
+        Me.btnEliminarExtra.UseVisualStyleBackColor = True
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(11, 99)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(418, 25)
+        Me.Label7.TabIndex = 20
+        Me.Label7.Text = "Alta, baja y modificación de extras"
+        '
+        'btnModificarExtra
+        '
+        Me.btnModificarExtra.Font = New System.Drawing.Font("Verdana", 12.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnModificarExtra.Location = New System.Drawing.Point(871, 198)
+        Me.btnModificarExtra.Name = "btnModificarExtra"
+        Me.btnModificarExtra.Size = New System.Drawing.Size(119, 43)
+        Me.btnModificarExtra.TabIndex = 22
+        Me.btnModificarExtra.Text = "Modificar"
+        Me.btnModificarExtra.UseVisualStyleBackColor = True
+        '
+        'Line7
+        '
+        Me.Line7.BackColor = System.Drawing.Color.Transparent
+        Me.Line7.Location = New System.Drawing.Point(16, 121)
+        Me.Line7.Name = "Line7"
+        Me.Line7.Size = New System.Drawing.Size(708, 10)
+        Me.Line7.TabIndex = 21
+        Me.Line7.Text = "Line7"
+        '
+        'SuperTabItem2
+        '
+        Me.SuperTabItem2.AttachedControl = Me.SuperTabControlPanel3
+        Me.SuperTabItem2.GlobalItem = False
+        Me.SuperTabItem2.Name = "SuperTabItem2"
+        Me.SuperTabItem2.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Cyan
+        Me.SuperTabItem2.Text = "Extras"
+        Me.SuperTabItem2.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center
+        '
         'SuperTabControlPanel1
         '
-        Me.SuperTabControlPanel1.Controls.Add(Me.btnReportes)
         Me.SuperTabControlPanel1.Controls.Add(Me.lblDisponibilidad)
         Me.SuperTabControlPanel1.Controls.Add(Me.picOcupado)
         Me.SuperTabControlPanel1.Controls.Add(Me.picDisponible)
-        Me.SuperTabControlPanel1.Controls.Add(Me.btnBajas)
         Me.SuperTabControlPanel1.Controls.Add(Me.Label1)
         Me.SuperTabControlPanel1.Controls.Add(Me.txtBuscarTurno)
         Me.SuperTabControlPanel1.Controls.Add(Me.dgvTurnos)
@@ -195,15 +631,6 @@ Partial Class frmPrincipal
         Me.SuperTabControlPanel1.Size = New System.Drawing.Size(1005, 568)
         Me.SuperTabControlPanel1.TabIndex = 1
         Me.SuperTabControlPanel1.TabItem = Me.Turnos
-        '
-        'btnReportes
-        '
-        Me.btnReportes.Location = New System.Drawing.Point(666, 508)
-        Me.btnReportes.Name = "btnReportes"
-        Me.btnReportes.Size = New System.Drawing.Size(136, 23)
-        Me.btnReportes.TabIndex = 29
-        Me.btnReportes.Text = "Reportes"
-        Me.btnReportes.UseVisualStyleBackColor = True
         '
         'lblDisponibilidad
         '
@@ -238,16 +665,6 @@ Partial Class frmPrincipal
         Me.picDisponible.TabIndex = 25
         Me.picDisponible.TabStop = False
         Me.picDisponible.Visible = False
-        '
-        'btnBajas
-        '
-        Me.btnBajas.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBajas.Location = New System.Drawing.Point(871, 456)
-        Me.btnBajas.Name = "btnBajas"
-        Me.btnBajas.Size = New System.Drawing.Size(119, 23)
-        Me.btnBajas.TabIndex = 24
-        Me.btnBajas.Text = "Bajas"
-        Me.btnBajas.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -294,7 +711,7 @@ Partial Class frmPrincipal
         Me.dgvTurnos.Name = "dgvTurnos"
         Me.dgvTurnos.ReadOnly = True
         Me.dgvTurnos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvTurnos.Size = New System.Drawing.Size(837, 343)
+        Me.dgvTurnos.Size = New System.Drawing.Size(837, 413)
         Me.dgvTurnos.TabIndex = 19
         '
         'idTurno
@@ -504,467 +921,24 @@ Partial Class frmPrincipal
         Me.Turnos.Text = "      Turnos       "
         Me.Turnos.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center
         '
-        'SuperTabControlPanel3
-        '
-        Me.SuperTabControlPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
-        Me.SuperTabControlPanel3.Controls.Add(Me.btnBajaExtras)
-        Me.SuperTabControlPanel3.Controls.Add(Me.Label8)
-        Me.SuperTabControlPanel3.Controls.Add(Me.dgvExtras)
-        Me.SuperTabControlPanel3.Controls.Add(Me.txtBuscarExtra)
-        Me.SuperTabControlPanel3.Controls.Add(Me.Label6)
-        Me.SuperTabControlPanel3.Controls.Add(Me.Line6)
-        Me.SuperTabControlPanel3.Controls.Add(Me.btnEliminarExtra)
-        Me.SuperTabControlPanel3.Controls.Add(Me.Label7)
-        Me.SuperTabControlPanel3.Controls.Add(Me.btnModificarExtra)
-        Me.SuperTabControlPanel3.Controls.Add(btnAgregarExtra)
-        Me.SuperTabControlPanel3.Controls.Add(Me.Line7)
-        Me.SuperTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SuperTabControlPanel3.Location = New System.Drawing.Point(0, 0)
-        Me.SuperTabControlPanel3.Name = "SuperTabControlPanel3"
-        Me.SuperTabControlPanel3.Size = New System.Drawing.Size(1005, 593)
-        Me.SuperTabControlPanel3.TabIndex = 0
-        Me.SuperTabControlPanel3.TabItem = Me.SuperTabItem2
-        Me.SuperTabControlPanel3.Visible = False
-        '
-        'btnBajaExtras
-        '
-        Me.btnBajaExtras.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBajaExtras.Location = New System.Drawing.Point(871, 455)
-        Me.btnBajaExtras.Name = "btnBajaExtras"
-        Me.btnBajaExtras.Size = New System.Drawing.Size(119, 23)
-        Me.btnBajaExtras.TabIndex = 28
-        Me.btnBajaExtras.Text = "Bajas"
-        Me.btnBajaExtras.UseVisualStyleBackColor = True
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(16, 60)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(75, 18)
-        Me.Label8.TabIndex = 27
-        Me.Label8.Text = "Nombre:"
-        '
-        'dgvExtras
-        '
-        Me.dgvExtras.AllowUserToAddRows = False
-        Me.dgvExtras.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvExtras.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
-        Me.dgvExtras.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvExtras.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.idExtra, Me.nombreExtra, Me.descripcionExtra, Me.precio, Me.cantidad, Me.activoExtra})
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvExtras.DefaultCellStyle = DataGridViewCellStyle4
-        Me.dgvExtras.Location = New System.Drawing.Point(16, 135)
-        Me.dgvExtras.Name = "dgvExtras"
-        Me.dgvExtras.ReadOnly = True
-        Me.dgvExtras.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvExtras.Size = New System.Drawing.Size(837, 343)
-        Me.dgvExtras.TabIndex = 17
-        '
-        'idExtra
-        '
-        Me.idExtra.DataPropertyName = "idExtra"
-        Me.idExtra.HeaderText = "ID Extra"
-        Me.idExtra.Name = "idExtra"
-        Me.idExtra.ReadOnly = True
-        Me.idExtra.Visible = False
-        '
-        'nombreExtra
-        '
-        Me.nombreExtra.DataPropertyName = "nombre"
-        Me.nombreExtra.HeaderText = "Nombre"
-        Me.nombreExtra.Name = "nombreExtra"
-        Me.nombreExtra.ReadOnly = True
-        '
-        'descripcionExtra
-        '
-        Me.descripcionExtra.DataPropertyName = "descripcion"
-        Me.descripcionExtra.HeaderText = "Descripcion"
-        Me.descripcionExtra.Name = "descripcionExtra"
-        Me.descripcionExtra.ReadOnly = True
-        '
-        'precio
-        '
-        Me.precio.DataPropertyName = "precio"
-        Me.precio.HeaderText = "Precio"
-        Me.precio.Name = "precio"
-        Me.precio.ReadOnly = True
-        '
-        'cantidad
-        '
-        Me.cantidad.DataPropertyName = "cantidad"
-        Me.cantidad.HeaderText = "Cantidad"
-        Me.cantidad.Name = "cantidad"
-        Me.cantidad.ReadOnly = True
-        '
-        'activoExtra
-        '
-        Me.activoExtra.DataPropertyName = "activo"
-        Me.activoExtra.HeaderText = "Activo"
-        Me.activoExtra.Name = "activoExtra"
-        Me.activoExtra.ReadOnly = True
-        Me.activoExtra.Visible = False
-        '
-        'txtBuscarExtra
-        '
-        Me.txtBuscarExtra.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBuscarExtra.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtBuscarExtra.Location = New System.Drawing.Point(104, 59)
-        Me.txtBuscarExtra.Name = "txtBuscarExtra"
-        Me.txtBuscarExtra.Size = New System.Drawing.Size(218, 23)
-        Me.txtBuscarExtra.TabIndex = 26
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(11, 9)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(160, 25)
-        Me.Label6.TabIndex = 24
-        Me.Label6.Text = "Buscar Extra"
-        '
-        'Line6
-        '
-        Me.Line6.BackColor = System.Drawing.Color.Transparent
-        Me.Line6.Location = New System.Drawing.Point(16, 31)
-        Me.Line6.Name = "Line6"
-        Me.Line6.Size = New System.Drawing.Size(708, 10)
-        Me.Line6.TabIndex = 25
-        Me.Line6.Text = "Line6"
-        '
-        'btnEliminarExtra
-        '
-        Me.btnEliminarExtra.Font = New System.Drawing.Font("Verdana", 12.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEliminarExtra.Location = New System.Drawing.Point(871, 260)
-        Me.btnEliminarExtra.Name = "btnEliminarExtra"
-        Me.btnEliminarExtra.Size = New System.Drawing.Size(119, 43)
-        Me.btnEliminarExtra.TabIndex = 23
-        Me.btnEliminarExtra.Text = "Dar de baja"
-        Me.btnEliminarExtra.UseVisualStyleBackColor = True
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(11, 99)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(418, 25)
-        Me.Label7.TabIndex = 20
-        Me.Label7.Text = "Alta, baja y modificación de extras"
-        '
-        'btnModificarExtra
-        '
-        Me.btnModificarExtra.Font = New System.Drawing.Font("Verdana", 12.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnModificarExtra.Location = New System.Drawing.Point(871, 198)
-        Me.btnModificarExtra.Name = "btnModificarExtra"
-        Me.btnModificarExtra.Size = New System.Drawing.Size(119, 43)
-        Me.btnModificarExtra.TabIndex = 22
-        Me.btnModificarExtra.Text = "Modificar"
-        Me.btnModificarExtra.UseVisualStyleBackColor = True
-        '
-        'Line7
-        '
-        Me.Line7.BackColor = System.Drawing.Color.Transparent
-        Me.Line7.Location = New System.Drawing.Point(16, 121)
-        Me.Line7.Name = "Line7"
-        Me.Line7.Size = New System.Drawing.Size(708, 10)
-        Me.Line7.TabIndex = 21
-        Me.Line7.Text = "Line7"
-        '
-        'SuperTabItem2
-        '
-        Me.SuperTabItem2.AttachedControl = Me.SuperTabControlPanel3
-        Me.SuperTabItem2.GlobalItem = False
-        Me.SuperTabItem2.Name = "SuperTabItem2"
-        Me.SuperTabItem2.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Cyan
-        Me.SuperTabItem2.Text = "Extras"
-        Me.SuperTabItem2.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center
-        '
-        'SuperTabControlPanel2
-        '
-        Me.SuperTabControlPanel2.Controls.Add(Me.btnBajas1)
-        Me.SuperTabControlPanel2.Controls.Add(Me.txtBuscarCliente)
-        Me.SuperTabControlPanel2.Controls.Add(Me.rbDocumentoCliente)
-        Me.SuperTabControlPanel2.Controls.Add(Me.rbApellidoCliente)
-        Me.SuperTabControlPanel2.Controls.Add(Me.rbNombreCliente)
-        Me.SuperTabControlPanel2.Controls.Add(Me.dgvClientes)
-        Me.SuperTabControlPanel2.Controls.Add(Me.Label5)
-        Me.SuperTabControlPanel2.Controls.Add(Me.Line5)
-        Me.SuperTabControlPanel2.Controls.Add(Me.btnEliminarCliente)
-        Me.SuperTabControlPanel2.Controls.Add(Me.Label4)
-        Me.SuperTabControlPanel2.Controls.Add(Me.btnModificarCliente)
-        Me.SuperTabControlPanel2.Controls.Add(Me.btnAgregarCliente)
-        Me.SuperTabControlPanel2.Controls.Add(Me.Line4)
-        Me.SuperTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SuperTabControlPanel2.Location = New System.Drawing.Point(0, 0)
-        Me.SuperTabControlPanel2.Name = "SuperTabControlPanel2"
-        Me.SuperTabControlPanel2.Size = New System.Drawing.Size(1005, 593)
-        Me.SuperTabControlPanel2.TabIndex = 0
-        Me.SuperTabControlPanel2.TabItem = Me.SuperTabItem1
-        Me.SuperTabControlPanel2.Visible = False
-        '
-        'btnBajas1
-        '
-        Me.btnBajas1.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBajas1.Location = New System.Drawing.Point(871, 455)
-        Me.btnBajas1.Name = "btnBajas1"
-        Me.btnBajas1.Size = New System.Drawing.Size(119, 23)
-        Me.btnBajas1.TabIndex = 25
-        Me.btnBajas1.Text = "Bajas"
-        Me.btnBajas1.UseVisualStyleBackColor = True
-        '
-        'txtBuscarCliente
-        '
-        Me.txtBuscarCliente.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBuscarCliente.Location = New System.Drawing.Point(19, 54)
-        Me.txtBuscarCliente.Name = "txtBuscarCliente"
-        Me.txtBuscarCliente.Size = New System.Drawing.Size(207, 23)
-        Me.txtBuscarCliente.TabIndex = 24
-        '
-        'rbDocumentoCliente
-        '
-        Me.rbDocumentoCliente.AutoSize = True
-        Me.rbDocumentoCliente.BackColor = System.Drawing.Color.Transparent
-        Me.rbDocumentoCliente.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbDocumentoCliente.Location = New System.Drawing.Point(405, 56)
-        Me.rbDocumentoCliente.Name = "rbDocumentoCliente"
-        Me.rbDocumentoCliente.Size = New System.Drawing.Size(100, 20)
-        Me.rbDocumentoCliente.TabIndex = 23
-        Me.rbDocumentoCliente.TabStop = True
-        Me.rbDocumentoCliente.Text = "Documento"
-        Me.rbDocumentoCliente.UseVisualStyleBackColor = False
-        '
-        'rbApellidoCliente
-        '
-        Me.rbApellidoCliente.AutoSize = True
-        Me.rbApellidoCliente.BackColor = System.Drawing.Color.Transparent
-        Me.rbApellidoCliente.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbApellidoCliente.Location = New System.Drawing.Point(323, 56)
-        Me.rbApellidoCliente.Name = "rbApellidoCliente"
-        Me.rbApellidoCliente.Size = New System.Drawing.Size(76, 20)
-        Me.rbApellidoCliente.TabIndex = 22
-        Me.rbApellidoCliente.TabStop = True
-        Me.rbApellidoCliente.Text = "Apellido"
-        Me.rbApellidoCliente.UseVisualStyleBackColor = False
-        '
-        'rbNombreCliente
-        '
-        Me.rbNombreCliente.AutoSize = True
-        Me.rbNombreCliente.BackColor = System.Drawing.Color.Transparent
-        Me.rbNombreCliente.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbNombreCliente.Location = New System.Drawing.Point(242, 56)
-        Me.rbNombreCliente.Name = "rbNombreCliente"
-        Me.rbNombreCliente.Size = New System.Drawing.Size(75, 20)
-        Me.rbNombreCliente.TabIndex = 21
-        Me.rbNombreCliente.TabStop = True
-        Me.rbNombreCliente.Text = "Nombre"
-        Me.rbNombreCliente.UseVisualStyleBackColor = False
-        '
-        'dgvClientes
-        '
-        Me.dgvClientes.AllowUserToAddRows = False
-        Me.dgvClientes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvClientes.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
-        Me.dgvClientes.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.idCliente, Me.activo, Me.nombre, Me.apellido, Me.documento, Me.Provincia, Me.nombreLocalidad, Me.localidad, Me.CodPostal, Me.direccion, Me.telefono})
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvClientes.DefaultCellStyle = DataGridViewCellStyle6
-        Me.dgvClientes.Location = New System.Drawing.Point(16, 135)
-        Me.dgvClientes.Name = "dgvClientes"
-        Me.dgvClientes.ReadOnly = True
-        Me.dgvClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvClientes.Size = New System.Drawing.Size(837, 343)
-        Me.dgvClientes.TabIndex = 20
-        '
-        'idCliente
-        '
-        Me.idCliente.DataPropertyName = "idCliente"
-        Me.idCliente.HeaderText = "Cliente"
-        Me.idCliente.Name = "idCliente"
-        Me.idCliente.ReadOnly = True
-        Me.idCliente.Visible = False
-        '
-        'activo
-        '
-        Me.activo.DataPropertyName = "activo"
-        Me.activo.HeaderText = "Activo"
-        Me.activo.Name = "activo"
-        Me.activo.ReadOnly = True
-        Me.activo.Visible = False
-        '
-        'nombre
-        '
-        Me.nombre.DataPropertyName = "nombre"
-        Me.nombre.HeaderText = "Nombre"
-        Me.nombre.Name = "nombre"
-        Me.nombre.ReadOnly = True
-        '
-        'apellido
-        '
-        Me.apellido.DataPropertyName = "apellido"
-        Me.apellido.HeaderText = "Apellido"
-        Me.apellido.Name = "apellido"
-        Me.apellido.ReadOnly = True
-        '
-        'documento
-        '
-        Me.documento.DataPropertyName = "documento"
-        Me.documento.HeaderText = "Documento"
-        Me.documento.Name = "documento"
-        Me.documento.ReadOnly = True
-        '
-        'Provincia
-        '
-        Me.Provincia.DataPropertyName = "idProvincia"
-        Me.Provincia.HeaderText = "Provincia"
-        Me.Provincia.Name = "Provincia"
-        Me.Provincia.ReadOnly = True
-        Me.Provincia.Visible = False
-        '
-        'nombreLocalidad
-        '
-        Me.nombreLocalidad.DataPropertyName = "nombreLocalidad"
-        Me.nombreLocalidad.HeaderText = "Localidad"
-        Me.nombreLocalidad.Name = "nombreLocalidad"
-        Me.nombreLocalidad.ReadOnly = True
-        '
-        'localidad
-        '
-        Me.localidad.DataPropertyName = "localidad"
-        Me.localidad.HeaderText = "Localidad"
-        Me.localidad.Name = "localidad"
-        Me.localidad.ReadOnly = True
-        Me.localidad.Visible = False
-        '
-        'CodPostal
-        '
-        Me.CodPostal.DataPropertyName = "codPostal"
-        Me.CodPostal.HeaderText = "Cod Postal"
-        Me.CodPostal.Name = "CodPostal"
-        Me.CodPostal.ReadOnly = True
-        Me.CodPostal.Visible = False
-        '
-        'direccion
-        '
-        Me.direccion.DataPropertyName = "direccion"
-        Me.direccion.HeaderText = "Dirección"
-        Me.direccion.Name = "direccion"
-        Me.direccion.ReadOnly = True
-        '
-        'telefono
-        '
-        Me.telefono.DataPropertyName = "telefono"
-        Me.telefono.HeaderText = "Teléfono"
-        Me.telefono.Name = "telefono"
-        Me.telefono.ReadOnly = True
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(11, 9)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(180, 25)
-        Me.Label5.TabIndex = 15
-        Me.Label5.Text = "Buscar Cliente"
-        '
-        'Line5
-        '
-        Me.Line5.BackColor = System.Drawing.Color.Transparent
-        Me.Line5.Location = New System.Drawing.Point(16, 31)
-        Me.Line5.Name = "Line5"
-        Me.Line5.Size = New System.Drawing.Size(708, 10)
-        Me.Line5.TabIndex = 16
-        Me.Line5.Text = "Line5"
-        '
-        'btnEliminarCliente
-        '
-        Me.btnEliminarCliente.Font = New System.Drawing.Font("Verdana", 12.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEliminarCliente.Location = New System.Drawing.Point(871, 260)
-        Me.btnEliminarCliente.Name = "btnEliminarCliente"
-        Me.btnEliminarCliente.Size = New System.Drawing.Size(119, 43)
-        Me.btnEliminarCliente.TabIndex = 14
-        Me.btnEliminarCliente.Text = "Dar de Baja"
-        Me.btnEliminarCliente.UseVisualStyleBackColor = True
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(11, 100)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(435, 25)
-        Me.Label4.TabIndex = 11
-        Me.Label4.Text = "Alta, baja y modificación de clientes"
-        '
-        'btnModificarCliente
-        '
-        Me.btnModificarCliente.Font = New System.Drawing.Font("Verdana", 12.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnModificarCliente.Location = New System.Drawing.Point(871, 198)
-        Me.btnModificarCliente.Name = "btnModificarCliente"
-        Me.btnModificarCliente.Size = New System.Drawing.Size(119, 43)
-        Me.btnModificarCliente.TabIndex = 13
-        Me.btnModificarCliente.Text = "Modificar"
-        Me.btnModificarCliente.UseVisualStyleBackColor = True
-        '
-        'btnAgregarCliente
-        '
-        Me.btnAgregarCliente.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregarCliente.Location = New System.Drawing.Point(871, 136)
-        Me.btnAgregarCliente.Name = "btnAgregarCliente"
-        Me.btnAgregarCliente.Size = New System.Drawing.Size(119, 43)
-        Me.btnAgregarCliente.TabIndex = 10
-        Me.btnAgregarCliente.Text = "Agregar"
-        Me.btnAgregarCliente.UseVisualStyleBackColor = True
-        '
-        'Line4
-        '
-        Me.Line4.BackColor = System.Drawing.Color.Transparent
-        Me.Line4.Location = New System.Drawing.Point(16, 122)
-        Me.Line4.Name = "Line4"
-        Me.Line4.Size = New System.Drawing.Size(708, 10)
-        Me.Line4.TabIndex = 12
-        Me.Line4.Text = "Line4"
-        '
-        'SuperTabItem1
-        '
-        Me.SuperTabItem1.AttachedControl = Me.SuperTabControlPanel2
-        Me.SuperTabItem1.GlobalItem = False
-        Me.SuperTabItem1.Name = "SuperTabItem1"
-        Me.SuperTabItem1.Text = "      Clientes      "
-        Me.SuperTabItem1.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center
+        'btnReportes
+        '
+        Me.btnReportes.Location = New System.Drawing.Point(872, 524)
+        Me.btnReportes.Name = "btnReportes"
+        Me.btnReportes.Size = New System.Drawing.Size(119, 23)
+        Me.btnReportes.TabIndex = 29
+        Me.btnReportes.Text = "Reportes"
+        Me.btnReportes.UseVisualStyleBackColor = True
+        '
+        'btnBajas
+        '
+        Me.btnBajas.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBajas.Location = New System.Drawing.Point(872, 553)
+        Me.btnBajas.Name = "btnBajas"
+        Me.btnBajas.Size = New System.Drawing.Size(119, 23)
+        Me.btnBajas.TabIndex = 24
+        Me.btnBajas.Text = "Bajas"
+        Me.btnBajas.UseVisualStyleBackColor = True
         '
         'SuperTabItem3
         '
@@ -985,26 +959,28 @@ Partial Class frmPrincipal
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1005, 587)
+        Me.Controls.Add(Me.btnBajas)
+        Me.Controls.Add(Me.btnReportes)
         Me.Controls.Add(Me.SuperTabControl1)
-        Me.MinimizeBox = False
+        Me.MaximizeBox = False
         Me.MinimumSize = New System.Drawing.Size(941, 534)
         Me.Name = "frmPrincipal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = " .: Entrega de turnos salón Don Carlos :."
         CType(Me.SuperTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SuperTabControl1.ResumeLayout(False)
+        Me.SuperTabControlPanel2.ResumeLayout(False)
+        Me.SuperTabControlPanel2.PerformLayout()
+        CType(Me.dgvClientes, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.SuperTabControlPanel3.ResumeLayout(False)
+        Me.SuperTabControlPanel3.PerformLayout()
+        CType(Me.dgvExtras, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SuperTabControlPanel1.ResumeLayout(False)
         Me.SuperTabControlPanel1.PerformLayout()
         CType(Me.picOcupado, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picDisponible, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dgvTurnos, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtiFechaBusqueda, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SuperTabControlPanel3.ResumeLayout(False)
-        Me.SuperTabControlPanel3.PerformLayout()
-        CType(Me.dgvExtras, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SuperTabControlPanel2.ResumeLayout(False)
-        Me.SuperTabControlPanel2.PerformLayout()
-        CType(Me.dgvClientes, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1075,8 +1051,6 @@ Partial Class frmPrincipal
     Private WithEvents SuperTabItem2 As DevComponents.DotNetBar.SuperTabItem
     Private WithEvents dtiFechaBusqueda As DevComponents.Editors.DateTimeAdv.DateTimeInput
     Friend WithEvents btnBajas As Button
-    Friend WithEvents btnBajas1 As Button
-    Friend WithEvents btnBajaExtras As Button
     Friend WithEvents picOcupado As PictureBox
     Friend WithEvents picDisponible As PictureBox
     Friend WithEvents lblDisponibilidad As Label
