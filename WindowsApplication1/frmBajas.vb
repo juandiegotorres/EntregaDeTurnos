@@ -61,16 +61,18 @@
     End Sub
 
     Private Sub BtnEliminarTurno_Click(sender As Object, e As EventArgs) Handles btnEliminarTurno.Click
-        If MsgBox("¿Está seguro que desea eliminar el turno? Esta acción es irreversible", MsgBoxStyle.YesNo, "Bajas") = MsgBoxResult.Yes Then
+        If dgvClientes.Rows.Count = 0 Then
+            btnEliminarCliente.Enabled = False
+            If MsgBox("¿Está seguro que desea eliminar el turno? Esta acción es irreversible", MsgBoxStyle.YesNo, "Bajas") = MsgBoxResult.Yes Then
 
-            If dgvTurnos.CurrentRow.Selected = False Or eTurnos.idTurno = 0 Then
-                MsgBox("No hay ningun turno seleccionado, haga click en uno", MsgBoxStyle.Exclamation, "Bajas")
-            Else
-                eTurnos.eliminarTurno()
-                actualizarTurnosBaja()
+                If dgvTurnos.CurrentRow.Selected = False Or eTurnos.idTurno = 0 Then
+                    MsgBox("No hay ningun turno seleccionado, haga click en uno", MsgBoxStyle.Exclamation, "Bajas")
+                Else
+                    eTurnos.eliminarTurno()
+                    actualizarTurnosBaja()
+                End If
             End If
         End If
-
     End Sub
 
     Private Sub frmBajas_Closed(sender As Object, e As EventArgs) Handles Me.Closed

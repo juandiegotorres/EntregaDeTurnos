@@ -1,4 +1,14 @@
 ﻿Imports System.Drawing.Text
+'Este soft usa dotnetbar para la gestion de pestañas descargar en:
+'https://www.youtube.com/watch?v=LCmZIF1wDKI
+
+'Database: 
+'https://drive.google.com/file/d/11BK0cJTndtxj0rdSdCuErd_NLjS16zWW/view?usp=sharing
+
+'Bug Report:
+'Al presionar boton eliminar, restaurar en la tabla de bajas se produce error
+'En la tabla de reportes alquiler personalizado, el label no se actualiza
+'Error ortografico en reportes si sale solo un extra muestra palabra en plural
 Public Class frmPrincipal
 #Region "Declaracion de Propiedades"
     Public e_turno As New Entidades.eTurnos
@@ -10,6 +20,7 @@ Public Class frmPrincipal
     Dim bsExtras As New BindingSource
     Dim filtroBS As String
 #End Region
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         dtiFechaBusqueda.Text = Today
         'Cargo todos los data grid view 

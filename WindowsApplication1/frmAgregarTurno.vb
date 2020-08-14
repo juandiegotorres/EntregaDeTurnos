@@ -164,7 +164,7 @@
                 MsgBox("Día ocupado, por favor escoja otro", MsgBoxStyle.Exclamation, "Turnos")
                 Return False
             End If
-            If clbExtras.CheckedItems.Count = 0 Then
+            If clbExtras.CheckedItems.Count = 0 And cbSinExtras.Checked = False Then
                 MsgBox("Seleccione la opción sin extras", MsgBoxStyle.Exclamation, "Turnos")
                 Return False
             End If
